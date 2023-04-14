@@ -65,6 +65,7 @@ h3 {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding-left: 0;
 }
 
 .skills__logo-ul li {
