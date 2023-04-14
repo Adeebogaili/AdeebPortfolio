@@ -38,7 +38,7 @@ h3 {
 }
 
 .skills__container h3 {
-  padding-top: .5rem;
+  margin-top: 1.5rem;
   padding-right: 5px;
   border-right: 1px solid var(--text-color);
 }
