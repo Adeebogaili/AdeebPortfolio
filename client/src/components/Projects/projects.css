@@ -8,13 +8,11 @@
 }
 
 .projects h5 {
-    color: var(--headers-color);
-
+  color: var(--headers-color);
 }
 .project__wrapper {
   padding: 2rem;
   margin: 4rem 0;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 1.7rem;
   background-color: #fff;
 }
@@ -40,14 +38,14 @@
   overflow-y: scroll;
 }
 .project__image .tour:hover {
-  transform: translatey(-65.5%);
+  transform: translatey(-50%);
 }
 
 .project__image .sunrise:hover {
-  transform: translatey(-61%);
+  transform: translatey(-50%);
 }
 .project__image .social:hover {
-  transform: translatey(-72.5%);
+  transform: translatey(-50%);
 }
 
 .project__details h5 {
@@ -56,10 +54,8 @@
 }
 
 .project__details .backend,
-.project__details .frontend
-{
-  border-bottom: 1px solid rgb(230, 222, 222);
-  margin: .5rem;
+.project__details .frontend {
+  margin: 0.5rem;
 }
 
 .tech__group {
@@ -91,17 +87,41 @@
 }
 
 .project__links {
-    text-align: center;
+  text-align: center;
 }
 
 .project__links a {
-    display: inline-block;
-    margin: 1rem ;
-    font-size: 1.2rem;
+  display: inline-block;
+  margin: 1rem;
+  font-size: 1.2rem;
 }
 
 .project__links i {
-    display: block;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .project__wrapper {
+    padding: 1.5rem;
+    margin: 2rem;
+  }
+  .project__image {
+    height: 20rem;
+  }
+  .tech__group .backend,
+  .tech__group .frontend {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .projects {
+    padding: 1rem;
   }
 
-
+  .project__wrapper {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}

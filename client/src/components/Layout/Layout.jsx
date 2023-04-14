@@ -6,8 +6,8 @@ import Home from '../Home/Home';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
-// import Routers from '../../router/Routers'
-// import Footer from './../Footer/Footer'
+import Footer from '../Footer/Footer';
+
 
 const Layout = () => {
   return (
@@ -17,6 +17,7 @@ const Layout = () => {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 };

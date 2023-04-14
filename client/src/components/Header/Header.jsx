@@ -63,7 +63,10 @@ const Header = () => {
               <ul className='menu d-flex align-items-center gap-5'>
                 {nav__links.map((item, index) => (
                   <li className='nav__item' key={index}>
-                    <a href={item.path} onClick={(event) => handleLinkClick(event, item.path)}>
+                    <a
+                      href={item.path}
+                      onClick={(event) => handleLinkClick(event, item.path)}
+                    >
                       {item.display}
                     </a>
                   </li>

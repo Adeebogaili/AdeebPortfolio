@@ -9,7 +9,7 @@ const Home = () => {
     <div className='home' id='home'>
       <Container>
         <Row>
-          <Col lg='6' md='6'>
+          <Col lg='6' md='5'>
             <h1>
               FullStack JavaScript <br />
               Web Developer
@@ -27,7 +27,7 @@ const Home = () => {
               </a>
             </div>
           </Col>
-          <Col lg='6' md='6'>
+          <Col lg='6' md='5'>
             <div className='image__container'>
               <img src={adeebimg} alt='Adeeb' />
             </div>
@@ -38,13 +38,13 @@ const Home = () => {
             <h3>Tech Stack</h3>
           </Col>
           <Col md={9}>
-            {skills?.map((item, index) => (
-              <ul className='skills__logo-ul' key={index}>
-                <li>
+            <ul className='skills__logo-ul'>
+              {skills?.map((item, index) => (
+                <li key={index}>
                   <img src={item.image} alt={item.alt} />
                 </li>
-              </ul>
-            ))}
+              ))}
+            </ul>
           </Col>
         </Row>
       </Container>

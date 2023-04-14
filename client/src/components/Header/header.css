@@ -7,6 +7,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.logo {
+    cursor: pointer;
+    color: var(--heading-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
 .logo img {
     width: 35%;
 }

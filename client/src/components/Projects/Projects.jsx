@@ -12,14 +12,14 @@ const Projects = () => {
         <h5>PORTFOLIO</h5>
         <h3>Each project is a unique piecce of development</h3>
         <Row className='project__wrapper'>
-          <Col lg='6' md='6'>
+          <Col lg='6' md='12'>
             <div className='project__image'>
-              <a href='#' target='_blank' rel='noopener noreferrer'>
+              <a href='https://tour-tastic.onrender.com/home' target='_blank' rel='noopener noreferrer'>
                 <img className='tour' src={tourImg} alt='Tour website' />
               </a>
             </div>
           </Col>
-          <Col className='project__details' lg='6' md='6'>
+          <Col className='project__details' lg='6' md='12'>
             <h5>Tour-Tastic</h5>
             <p>
               Find your perfect tour and start your adventure with Tour-Tastic!
@@ -60,11 +60,11 @@ const Projects = () => {
                 </ul>
               </Col>
               <Col className='project__links'>
-                <a href='' target='_blank' rel='noopener noreferrer'>
+                <a href='https://github.com/Adeebogaili/Tour-Tastic' target='_blank' rel='noopener noreferrer'>
                   {' '}
                   Code <i className='ri-github-fill'></i>
                 </a>
-                <a href='' target='_blank' rel='noopener noreferrer'>
+                <a href='https://tour-tastic.onrender.com/home' target='_blank' rel='noopener noreferrer'>
                   Live Demo <i className='ri-live-fill'></i>
                 </a>
               </Col>
@@ -72,7 +72,7 @@ const Projects = () => {
           </Col>
         </Row>
         <Row className='project__wrapper'>
-          <Col className='project__details' lg='6' md='6'>
+          <Col className='project__details' lg='6' md='12'>
             <h5>Sunrise Food Market</h5>
             <p>
               Welcome to Sunrise Food Market your go-to for groceries and
@@ -110,15 +110,15 @@ const Projects = () => {
                   {' '}
                   Code <i className='ri-github-fill'></i>
                 </a>
-                <a href='' target='_blank' rel='noopener noreferrer'>
+                <a href='https://sunrise-food-market.onrender.com/' target='_blank' rel='noopener noreferrer'>
                   Live Demo <i className='ri-live-fill'></i>
                 </a>
               </Col>
             </Row>
           </Col>
-          <Col lg='6' md='6'>
+          <Col lg='6' md='12'>
             <div className='project__image'>
-              <a href='#' target='_blank' rel='noopener noreferrer'>
+              <a href='https://sunrise-food-market.onrender.com/' target='_blank' rel='noopener noreferrer'>
                 <img
                   className='sunrise'
                   src={sunriseImg}
@@ -129,7 +129,7 @@ const Projects = () => {
           </Col>
         </Row>
         <Row className='project__wrapper'>
-          <Col lg='6' md='6'>
+          <Col lg='6' md='12'>
             <div className='project__image'>
               <a href='https://rtv-81uw.onrender.com' target='_blank' rel='noopener noreferrer'>
                 <img
@@ -140,7 +140,7 @@ const Projects = () => {
               </a>
             </div>
           </Col>
-          <Col className='project__details' lg='6' md='6'>
+          <Col className='project__details' lg='6' md='12'>
             <h5>VIP Politics</h5>
             <p>
               Join us to discuss the issues that matter to you! With VIP

@@ -16,18 +16,18 @@ const About = () => {
           <Col lg='6'>
             <h5>ABOUT ME</h5>
             <h3>
-              A dedicated Full Stack Developer <br />
+              A Passionate full stack developer <br />
               based in Austin, TX
             </h3>
             <p>
-              As a Junior Front-End Developer, I possess an impressive arsenal
-              of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I
-              excel in designing and maintaining responsive websites that offer
-              a smooth user experience. My expertise lies in crafting dynamic,
-              engaging interfaces through writing clean and optimized code and
-              utilizing cutting-edge development tools and techniques. I am also
-              a team player who thrives in collaborating with cross-functional
-              teams to produce outstanding web applications.
+              Hello, I'm Adeeb Ogaili, a full stack web developer with a passion
+              for creating impactful solutions. I enjoy problem-solving and have
+              developed valuable skills in teamwork, adaptability, and
+              goal-oriented flexibility. I take pride in my work ethic and
+              professionalism and strive to learn and improve constantly.
+              Although I haven't had the opportunity to mentor or lead yet, I'm
+              excited about the possibility of helping others grow in the
+              future.
             </p>
           </Col>
         </Row>
