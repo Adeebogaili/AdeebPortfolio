@@ -1,0 +1,14 @@
+.about {
+    padding-top: 5rem;
+}
+
+.about h5 {
+    color: var(--headers-color);
+}
+
+.about__image img {
+    width: 25rem;
+    border-radius: 15px;
+    height: auto;
+    margin-bottom: 2rem;
+}

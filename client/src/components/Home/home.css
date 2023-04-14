@@ -1,0 +1,74 @@
+.home {
+  padding-top: 5rem;
+  background-color: var(--background-color);
+}
+
+.home h1,
+h3 {
+  color: var(--heading-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.home h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.home p {
+  font-family: 'Mulish', sans-serif;
+  color: var(--text-color);
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.image__container img {
+  width: 25rem;
+  height: 25rem;
+  -webkit-animation: morph 8s ease-in-out infinite;
+  animation: morph 8s ease-in-out infinite;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.skills__container h3 {
+  padding-top: .5rem;
+  padding-right: 5px;
+  border-right: 1px solid var(--text-color);
+}
+
+.social__media {
+  font-size: 2rem;
+}
+
+.social__media a {
+  margin-right: 5px;
+}
+
+.skills__logo-ul {
+  display: inline-block;
+}
+
+.skills__logo-ul li {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  display: flex;
+  height: 4.5rem;
+  justify-content: center;
+  width: 4.5rem;
+}
+
+.skills__logo-ul li img {
+  height: auto;
+  width: 2.5rem;
+  border-radius: 5px;
+}
