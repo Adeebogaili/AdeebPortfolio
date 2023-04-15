@@ -15,8 +15,8 @@ const Home = () => {
               Web Developer
             </h1>
             <p>
-              Hi, I'm Adeeb Ogaili, A passionate Full Stack <br />
-              Web Developer based in Austin, TX
+              Hi, I'm Adeeb Ogaili, A passionate Full Stack 
+              Web Developer <br /> based in Austin, TX
             </p>
             <div className='social__media'>
               <a href='https://www.linkedin.com/in/adeeb-ogaili'>
