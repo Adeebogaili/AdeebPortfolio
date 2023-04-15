@@ -27,7 +27,7 @@ const Contact = () => {
                 <div className='location__text'>
                   <h6>Location</h6>
                   <a
-                    href='https://goo.gl/maps/cipwG3Xti5KL27rU9'
+                    href='https://goo.gl/maps/cAdR9N19rUeJvv8N6'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
