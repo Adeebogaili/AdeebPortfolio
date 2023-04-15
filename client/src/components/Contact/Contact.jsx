@@ -18,7 +18,7 @@ const Contact = () => {
             <div className='contact__links'>
               <div className='location'>
                 <a
-                  href='https://goo.gl/maps/cipwG3Xti5KL27rU9'
+                  href='https://goo.gl/maps/qL5hXrYXCR4ogpjA9'
                   target='_blank'
                   rel='noopener noreferrer'
                 >

@@ -15,14 +15,22 @@ const Home = () => {
               Web Developer
             </h1>
             <p>
-              Hi, I'm Adeeb Ogaili, A passionate Full Stack 
-              Web Developer <br /> based in Austin, TX
+              Hi, I'm Adeeb Ogaili, A passionate Full Stack Web Developer <br />{' '}
+              based in Austin, TX
             </p>
             <div className='social__media'>
-              <a href='https://www.linkedin.com/in/adeeb-ogaili'>
+              <a
+                href='https://www.linkedin.com/in/adeeb-ogaili'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <i className='ri-linkedin-box-fill'></i>
               </a>
-              <a href='https://www.github.com/Adeebogaili'>
+              <a
+                href='https://www.github.com/Adeebogaili'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <i className='ri-github-fill'></i>
               </a>
             </div>

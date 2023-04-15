@@ -25,10 +25,6 @@
   align-items: center;
 }
 
-.location img {
-  margin-left: -5px;
-}
-
 .contact__links .email,
 .contact__links .location {
   margin: 3rem;
