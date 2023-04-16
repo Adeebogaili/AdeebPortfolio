@@ -30,6 +30,8 @@
   margin: 3rem;
 }
 
+
+/* responsive */
 @media only screen and (max-width: 768px) {
   .contact h5,
   .contact h4 {
