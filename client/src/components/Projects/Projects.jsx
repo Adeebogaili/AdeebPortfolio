@@ -10,11 +10,18 @@ const Projects = () => {
     <div className='projects' id='projects'>
       <Container>
         <h5>PORTFOLIO</h5>
-        <h3>Each project is a unique piecce of development</h3>
+        <h3>
+          Each project is a distinct and individual piece of software
+          development.
+        </h3>
         <Row className='project__wrapper'>
           <Col lg='6' md='12'>
             <div className='project__image'>
-              <a href='https://tour-tastic.onrender.com/home' target='_blank' rel='noopener noreferrer'>
+              <a
+                href='https://tour-tastic.onrender.com/home'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <img className='tour' src={tourImg} alt='Tour website' />
               </a>
             </div>
@@ -60,11 +67,19 @@ const Projects = () => {
                 </ul>
               </Col>
               <Col className='project__links'>
-                <a href='https://github.com/Adeebogaili/Tour-Tastic' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://github.com/Adeebogaili/Tour-Tastic'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   {' '}
                   Code <i className='ri-github-fill'></i>
                 </a>
-                <a href='https://tour-tastic.onrender.com/home' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://tour-tastic.onrender.com/home'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   Live Demo <i className='ri-live-fill'></i>
                 </a>
               </Col>
@@ -106,11 +121,19 @@ const Projects = () => {
                 </ul>
               </Col>
               <Col className='project__links'>
-                <a href='https://github.com/Adeebogaili/Level-5-Group-Fullstack-Project' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://github.com/Adeebogaili/Level-5-Group-Fullstack-Project'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   {' '}
                   Code <i className='ri-github-fill'></i>
                 </a>
-                <a href='https://sunrise-food-market.onrender.com/' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://sunrise-food-market.onrender.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   Live Demo <i className='ri-live-fill'></i>
                 </a>
               </Col>
@@ -118,7 +141,11 @@ const Projects = () => {
           </Col>
           <Col lg='6' md='12'>
             <div className='project__image'>
-              <a href='https://sunrise-food-market.onrender.com/' target='_blank' rel='noopener noreferrer'>
+              <a
+                href='https://sunrise-food-market.onrender.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <img
                   className='sunrise'
                   src={sunriseImg}
@@ -131,7 +158,11 @@ const Projects = () => {
         <Row className='project__wrapper'>
           <Col lg='6' md='12'>
             <div className='project__image'>
-              <a href='https://rtv-81uw.onrender.com' target='_blank' rel='noopener noreferrer'>
+              <a
+                href='https://rtv-81uw.onrender.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <img
                   className='social'
                   src={socialImg}
@@ -177,11 +208,19 @@ const Projects = () => {
                 </ul>
               </Col>
               <Col className='project__links'>
-                <a href='https://github.com/Adeebogaili/RTV' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://github.com/Adeebogaili/RTV'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   {' '}
                   Code <i className='ri-github-fill'></i>
                 </a>
-                <a href='https://rtv-81uw.onrender.com' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://rtv-81uw.onrender.com'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   Live Demo <i className='ri-live-fill'></i>
                 </a>
               </Col>
